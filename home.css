@@ -6,3 +6,30 @@ body {
     border: 1px solid #665544;
     background-color: blanchedalmond;
     padding: <10px> | <50%>}
+
+nav {
+    background-color: cornsilk;
+    display: flex;
+    border: solid 2px black;
+    padding: 2px;
+    margin: 25px;
+}
+
+
+li {
+    display: inline;
+    padding: 50px;
+}
+
+#golden {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+}
+
+#sharpei {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+}
+
