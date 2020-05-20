@@ -1,35 +1,50 @@
-body {
-    font-family: helvetica;
-    color: black;
-    padding: 20px;}
-  .page {
-    border: 1px solid #665544;
-    background-color: blanchedalmond;
-    padding: <10px> | <50%>}
+h1 {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-shadow: 10px 10px cornsilk;
+    font-size: 100px;
+    margin-bottom: 5000px;
+    margin-right: 10px;
+    margin-left: 1px;
+    position: fixed;
 
-nav {
-    background-color: cornsilk;
-    display: flex;
-    border: solid 2px black;
-    padding: 2px;
-    margin: 25px;
 }
 
+nav {
+    font-size: 15px;
+    background-color: cornsilk;
+    display: flex;
+    border: solid 0.5px black;
+    padding: 1px;
+    margin: 10px;
+    margin-left: 1px;
+
+}
 
 li {
     display: inline;
-    padding: 50px;
+    padding: 100px;
+    padding-left: 1px;
+    margin-left: 1px;
+    font-weight: 800;
+
 }
 
 #golden {
     width: 1000px;
     height: 700px;
-    display: flex;
 }
 
 #sharpei {
     width: 1000px;
     height: 700px;
-    display: flex;
+}
+
+body {
+    font-family: helvetica;
+    color: black;
+    padding: 20px;
+    background-color: blanchedalmond;
+    padding: <10px> | <50%>}
 }
 
