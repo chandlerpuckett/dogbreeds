@@ -7,7 +7,6 @@ h1 {
     margin-right: 10px;
     margin-left: 1px;
     position: fixed;
-
 }
 
 nav {
@@ -25,7 +24,6 @@ button {
     margin: 5px;
     width: 250px;
     text-align: center;
-
 
 }
 
@@ -61,15 +59,11 @@ body {
     color: black;
     padding: 20px;
     background-color: blanchedalmond;
-    padding: <10px> | <50%>;
 }
 
 p {
     margin-left: 200px;
     font-size: 16px;
     font: bold;
-
-
-
 }
 
