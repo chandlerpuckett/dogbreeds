@@ -1,8 +1,8 @@
 body {
-    font-family: helvetica, Verdana, sans-serif;
-    color: #665544;
-    padding: 10px;}
+    font-family: helvetica;
+    color: black;
+    padding: 20px;}
   .page {
     border: 1px solid #665544;
-    background-color: hsl(0, 0%, 94%);
-    padding: inherit;}
+    background-color: blanchedalmond;
+    padding: <10px> | <50%>}
