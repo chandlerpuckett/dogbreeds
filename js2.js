@@ -45,16 +45,16 @@ document.write('<h3>' + salutation + userNameFromFunction + '!' + '</h3>');
 
 
 var letterAnswer = 'beagles'
-var guess = 3;
+var guess = 2;
 var letterGuess = prompt('Which Breed is the friendliest? Bulldogs, Terriers, or Beagles?').toLowerCase();
     
 for (var i = 0; i < guess; i = i + 1){
     if (letterGuess === letterAnswer){
-        alert('WINNER WINNER WINNER WINNER WINNER');
+        alert('WELCOME TO THE LAND OF DOG');
         break;
     } else {
         var left = guess - i;
-        letterGuess = prompt('NOPE. NOPE. Bulldogs, Terriers, or Beagles?  ' + left + ' left.');
+        letterGuess = prompt('NOPE. NOPE. Bulldogs, Terriers, or Beagles?  ' + left + ' left.').toLowerCase();
     }
 }
 
