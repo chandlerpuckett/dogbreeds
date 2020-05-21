@@ -7,6 +7,12 @@ function askName(){
 
 function askDogs(userName){
     var askDogs = prompt(userName + ', do you like dogs?') .toLowerCase();
+    while((askDogs != 'yes') || (askDogs == 'no')){
+        askDogs = prompt(userName + ', are you sure?')
+    }
+    // while loop, checks condition of yes or no
+    // if true, exit
+    // false asks them again
     return askDogs;
 }
 
@@ -15,8 +21,7 @@ function likeDogs(askDogs){
         alert ('BELLY RUBS & TREATS FOR ALL THE DOGGOS!!!!!');    
     } else if (askDogsFromFunction === 'no'){
         alert ('I HOPE YOU BURN IN HELL       ....just kidding!!!');
-    } else {
-        alert ('wrong input ya dingus');
+
     }
     
 }
@@ -40,3 +45,5 @@ var today = new Date();
     }
   
     document.write('<h3>' + salutation + userNameFromFunction + '!' + '</h3>');
+
+
