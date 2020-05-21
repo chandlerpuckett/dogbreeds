@@ -1,9 +1,8 @@
 'use strict'
 
 var greeting = 'Howdy ';
-var name = 'Doggo Lovers!!';
+var userName = prompt('BARK TWICE IF YOURE IN MILWAUKEE');
 
-var welcomeMessage = greeting + name + '!';
+var welcomeMessage = greeting + userName + '!';
 
-var el =document.getElementByld('greeting'); 
-el .textContent = welcomeMessage;
+document.write(welcomeMessage);
