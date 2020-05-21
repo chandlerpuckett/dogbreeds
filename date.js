@@ -16,6 +16,4 @@ if(mm<10)
 today = mm+'-'+dd+'-'+yyyy;
 console.log(today);
 
-document.write('<h2>' + today)
-
 
