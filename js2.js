@@ -8,11 +8,9 @@ function askName(){
 function askDogs(userName){
     var askDogs = prompt(userName + ', do you like dogs?') .toLowerCase();
     while((askDogs != 'yes') || (askDogs == 'no')){
-        askDogs = prompt(userName + ' , TRY AGAIN ya dingus! do you like dogs?')
+        askDogs = alert('I HOPE YOU BURN IN HELL       .... just kidding !!!') 
+        askDogs = prompt(userName + ', TRY AGAIN ya dingus! do you like dogs?')
     }
-    // while loop, checks condition of yes or no
-    // if true, exit
-    // false asks them again
     return askDogs;
 }
 
@@ -22,8 +20,7 @@ function likeDogs(askDogs){
     } else if (askDogsFromFunction === 'no'){
         alert ('I HOPE YOU BURN IN HELL       ....just kidding!!!');
 
-    }
-    
+    }  
 }
 
 var userNameFromFunction = askName();
@@ -44,6 +41,20 @@ var today = new Date();
       salutation = 'Welcome!';
     }
   
-    document.write('<h3>' + salutation + userNameFromFunction + '!' + '</h3>');
+document.write('<h3>' + salutation + userNameFromFunction + '!' + '</h3>');
 
+
+var letterAnswer = 'beagles'
+var guess = 3;
+var letterGuess = prompt('Which Breed is the friendliest? Bulldogs, Terriers, or Beagles?').toLowerCase();
+    
+for (var i = 0; i < guess; i = i + 1){
+    if (letterGuess === letterAnswer){
+        alert('WINNER WINNER WINNER WINNER WINNER');
+        break;
+    } else {
+        var left = guess - i;
+        letterGuess = prompt('NOPE. NOPE. Bulldogs, Terriers, or Beagles?  ' + left + ' left.');
+    }
+}
 
