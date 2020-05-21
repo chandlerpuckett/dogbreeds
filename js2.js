@@ -8,7 +8,7 @@ function askName(){
 function askDogs(userName){
     var askDogs = prompt(userName + ', do you like dogs?') .toLowerCase();
     while((askDogs != 'yes') || (askDogs == 'no')){
-        askDogs = prompt(userName + ', are you sure?')
+        askDogs = prompt(userName + ', one more time, do you like dogs?')
     }
     // while loop, checks condition of yes or no
     // if true, exit
