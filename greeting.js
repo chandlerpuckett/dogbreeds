@@ -1,9 +1,9 @@
 'use strict'
 
 var userName = prompt('BARK TWICE IF YOURE IN MILWAUKEE');
-var greeting = 'Howdy ';
+var greeting1 = 'Howdy ';
 
-var welcomeMessage = greeting + userName + '!!';
+var welcomeMessage = greeting1 + userName + '!!';
 
 document.write(welcomeMessage);
 
