@@ -16,7 +16,7 @@ function likeDogs(askDogs){
     } else if (askDogsFromFunction === 'no'){
         alert ('I HOPE YOU BURN IN HELL       ....just kidding!!!');
     } else {
-        alert ('wrong input');
+        alert ('wrong input ya dingus');
     }
     
 }
